@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter grade: ");
+        double grade = input.nextDouble();
+
+        System.out.print("Enter attendance percentage: ");
+        double attendance = input.nextDouble();
+
+        boolean eligible = grade >= 85 && attendance >= 80;
+
+        System.out.println("Eligible: " + eligible);
+
+        input.close();
+    }
+}
