@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter first integer: ");
+        int a = input.nextInt();
+
+        System.out.print("Enter second integer: ");
+        int b = input.nextInt();
+
+        System.out.print("Enter third integer: ");
+        int c = input.nextInt();
+
+        int largest = (a >= b) ? (a >= c ? a : c)
+                : (b >= c ? b : c);
+
+        System.out.println("Largest number: " + largest);
+
+        input.close();
+    }
+}
