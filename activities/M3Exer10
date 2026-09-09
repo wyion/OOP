@@ -32,9 +32,9 @@ public class Main {
         System.out.printf("%nGross Amount: %.2f%n", grossAmount);
         System.out.printf("Discount Amount: %.2f%n", discountAmount);
         System.out.printf("Discounted Amount: %.2f%n", discountedAmount);
-        System.out.printf("VAT: %.2f%n", vat);
-        System.out.printf("Final Bill: %.2f%n", finalBill);
-        System.out.printf("Change/Difference: %.2f%n", difference);
+        System.out.printf("VAT: %.3f%n", vat);
+        System.out.printf("Final Bill: %.3f%n", finalBill);
+        System.out.printf("Change/Difference: %.3f%n", difference);
         System.out.println("Payment Status: " + paymentStatus);
 
         input.close();
